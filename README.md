@@ -9,14 +9,15 @@
 - VSCode
 - JavaScript
 - Node.JS
+- React
 
 ## Website:
 
-https://raymondcerneytech.github.io/ /
+https://raymondcerneytech.github.io/React-Portfolio/
 
 ### Preview:
 
-![Picture of _____________](./assets/images/ .PNG)
+![Picture of React Portfolio](./assets/images/ .PNG)
 
 ### Author:
 
