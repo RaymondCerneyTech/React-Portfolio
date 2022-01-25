@@ -1,9 +1,7 @@
-#
-
-## Instructions:
+# React Portfolio
 
 ## Details:
-
+My portfolio, but using React!
 ## Tools Used:
 
 - VSCode
