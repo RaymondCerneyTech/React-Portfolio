@@ -15,17 +15,17 @@ body {
 
 
 
-nav {
+.nav-bar {
 	display: flex;
 	align-items: center;
 }
 
-nav ul {
+.nav-bar ul {
 	display: flex;
 	margin-right: 20px;
 }
 
-nav li {
+.nav-bar li {
 	display: flex;
 	justify-content: flex-end;
 	margin-right: 20px;

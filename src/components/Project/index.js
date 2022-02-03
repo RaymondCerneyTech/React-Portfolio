@@ -1,4 +1,9 @@
 import React from "react";
+import myBook from "../../assets/images/book/MyBook.png";
+import munchiesAndMovies from "../../assets/images/movies/Movies-and-Munchies-700.png";
+import portfolio from "../../assets/images/portfolio/portfolio-picture.png";
+import fullStack from "../../assets/images/stack/Full-Stack.png";
+import jsQuiz from "../../assets/images/quiz/jsQuiz.png";
 
 function Body() {
 	return (
@@ -25,24 +30,24 @@ function Body() {
 				</div>
 
 				<div className="content">
-					<a title="main-project-title" className="project-link" href="https://ahmed-sajjad111.github.io/Munchies-and-Movies/">
-						<img src="../../assets/images/Movies-and-Munchies-700.png" alt="Movies and Munchies"></img>
+					<a title="Munchies And Movies" className="project-link" href="https://ahmed-sajjad111.github.io/Munchies-and-Movies/">
+						<img src={munchiesAndMovies} alt="Movies and Munchies"></img>
 					</a>
 
-					<a title="project-two-title" className="project-link" href="https://cbc-my-book.herokuapp.com/">
-						<img className="secondary-projects" src="../../assets/images/MyBook.png" alt="MyBook Site"></img>
+					<a title="MyBook" className="project-link" href="https://cbc-my-book.herokuapp.com/">
+						<img className="secondary-projects" src={myBook} alt="MyBook Site"></img>
 					</a>
 
-					<a title="project-three-title" className="project-link" href="https://guarded-anchorage-60502.herokuapp.com/login">
-						<img className="secondary-projects" src="../../assets/images/Project-Three.png" alt="Project Three"></img>
+					<a title="Full Stack Exercise Track" className="project-link" href="https://guarded-anchorage-60502.herokuapp.com/login">
+						<img className="secondary-projects" src={fullStack} alt="Project Three"></img>
 					</a>
 
-					<a title="project-four-title" className="project-link" href="https://raymondcerneytech.github.io/portfolio-raymond-cerney/">
-						<img className="secondary-projects" src="../../assets/images/portfolio-picture.PNG" alt="Project Four"></img>
+					<a title="Portfolio" className="project-link" href="https://raymondcerneytech.github.io/portfolio-raymond-cerney/">
+						<img className="secondary-projects" src={portfolio} alt="portfolio"></img>
 					</a>
 
-					<a title="project-five-title" className="project-link" href="https://raymondcerneytech.github.io/portfolio-raymond-cerney/">
-						<img className="secondary-projects" src="../../assets/images/Project-Five.png" alt="Project Five"></img>
+					<a title="JavaScript Quiz Game" className="project-link" href="https://raymondcerneytech.github.io/portfolio-raymond-cerney/">
+						<img className="secondary-projects" src={jsQuiz} alt="JavaScript Quiz"></img>
 					</a>
 				</div>
 			</div>
