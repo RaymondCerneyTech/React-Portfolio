@@ -17,8 +17,8 @@ function Navigation() {
 							<a href="#contact">Contact</a>
 						</li>
 						<li>
-							<a href="../../assets/resume/Web Development Resume.docx" download="Web Development Resume.docx" target="_blank">
-								Download Resume
+							<a href="https://docs.google.com/document/d/1I1Zi0uTtTMnbilVaygNvS-rz9wzLZkGv8XOiGWnNiyQ/edit?usp=sharing">
+								Resume
 							</a>
 						</li>
 					</ul>

@@ -34,21 +34,24 @@ function Body() {
 						<img src={munchiesAndMovies} alt="Movies and Munchies"></img>
 					</a>
 
-					<a title="MyBook" className="project-link" href="https://cbc-my-book.herokuapp.com/">
-						<img className="secondary-projects" src={myBook} alt="MyBook Site"></img>
-					</a>
+					<div className="other-projects">
+						<a title="MyBook" className="project-link" href="https://cbc-my-book.herokuapp.com/">
+							<img className="secondary-projects img1" src={myBook} alt="MyBook Site"></img>
+						</a>
 
-					<a title="Full Stack Exercise Track" className="project-link" href="https://guarded-anchorage-60502.herokuapp.com/login">
-						<img className="secondary-projects" src={fullStack} alt="Project Three"></img>
-					</a>
+						<a title="Full Stack Exercise Track" className="project-link" href="https://guarded-anchorage-60502.herokuapp.com/login">
+							<img className="secondary-projects img2 right-pic" src={fullStack} alt="Project Three"></img>
+						</a>
+					</div>
+					<div className="other-projects">
+						<a title="Portfolio" className="project-link" href="https://raymondcerneytech.github.io/portfolio-raymond-cerney/">
+							<img className="secondary-projects img3" src={portfolio} alt="portfolio"></img>
+						</a>
 
-					<a title="Portfolio" className="project-link" href="https://raymondcerneytech.github.io/portfolio-raymond-cerney/">
-						<img className="secondary-projects" src={portfolio} alt="portfolio"></img>
-					</a>
-
-					<a title="JavaScript Quiz Game" className="project-link" href="https://raymondcerneytech.github.io/portfolio-raymond-cerney/">
-						<img className="secondary-projects" src={jsQuiz} alt="JavaScript Quiz"></img>
-					</a>
+						<a title="JavaScript Quiz Game" className="project-link" href="https://raymondcerneytech.github.io/javascript-quiz-game/">
+							<img className="secondary-projects img4 right-pic" src={jsQuiz} alt="JavaScript Quiz"></img>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

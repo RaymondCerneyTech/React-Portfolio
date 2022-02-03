@@ -13,8 +13,6 @@ body {
 /* margin and padding = top, left/right, bottom */
 /* margin and padding = top, right, bottom, left */
 
-
-
 .nav-bar {
 	display: flex;
 	align-items: center;
@@ -76,13 +74,12 @@ body {
 	justify-content: flex-end;
 }
 
-main {
+.projects {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
 	margin: 0 auto;
 }
-
 /* contains titles and content and puts them into the same row */
 .new-section {
 	display: flex;
@@ -109,13 +106,13 @@ main {
 	border-bottom: thin solid #364f85;
 	padding: 5px 10px 5px;
 	line-height: 1.5;
-	width:90%;
+	width: 90%;
 }
 
 /*content to right of titles*/
 .content {
-		padding: 0;
-		width: 90%;
+	padding: 0;
+	width: 90%;
 }
 
 img {
@@ -126,19 +123,33 @@ img {
 	opacity: 0.8;
 }
 
-.secondary-projects {
-	width: 49.7%;
-	display: inline-block;
+.other-projects {
+	display: flex;
 	margin-top: 10px;
 }
 
-.project-link{
+.secondary-projects {
+	height: 100px;
+}
+.img1 {
+	flex: 30.0504;
+}
+.img2 {
+	flex: 24.0912;
+}
+.img3 {
+	flex: 32.7558;
+}
+.img4 {
+	flex: 26.1426;
+}
+
+.project-link {
 	width: 100%;
 }
 
-.right-column {
+.right-pic {
 	margin-left: 10px;
-		width: 100%;
 }
 
 .footer-large {
@@ -164,30 +175,59 @@ img {
 
 /*Tablet and smaller screens are displayed with 1 column of content*/
 @media screen and (max-width: 768px) {
-	main {
+	html {
 		margin: 0;
 		padding: 0;
 		width: 100%;
 	}
 
-	nav {
-		display: none;
+	.body {
+		width: 100%;
+	}
+
+	.projects {
+		width: 100%;
+	}
+	.header-top {
+		display: block;
+		align-items: center;
 	}
 
 	.header-name {
-		justify-content: center;
-		margin: 0;
-		padding: 0;
-		width: 100%;
+		margin: 0 auto;
+		padding: 0 auto;
+		width: 75%;
+		border: thick solid rgb(36, 84, 100);
 	}
 
+	.nav-bar {
+		display: block;
+		margin: 0 auto;
+		padding: 0 auto;
+	}
+
+	.nav-bar ul {
+		margin: 5px 0;
+	}
+
+	ul {
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+	}
+
+	.nav-bar li {
+		display: flex;
+		margin: 0 auto;
+	}
 	.new-section {
-		margin: 10px 0 0;
+		display: block;
+		margin: 20px 0 0;
 		padding: 0 5px 0;
 		width: 100%;
 	}
 
 	.title {
+		display: block;
 		text-align: center;
 		font-size: larger;
 		font-weight: bold;
@@ -197,10 +237,31 @@ img {
 		border: none;
 	}
 
+	.about-info {
+		width: 100%;
+	}
 	.content {
+		display: block;
 		padding: 0;
 		margin: 0;
 		width: 100%;
+	}
+
+	.other-projects {
+		display: block;
+		margin-top: 0px;
+	}
+
+	.right-pic {
+		margin: 0 auto;
+	}
+
+	.secondary-projects {
+		margin-top: 10px;
+	}
+
+	.img4 {
+		margin-bottom: 10px;
 	}
 
 	.section-row {
