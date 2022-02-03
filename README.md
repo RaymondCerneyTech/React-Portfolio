@@ -13,9 +13,13 @@ My portfolio, but using React!
 
 https://react-portfolio-rc.herokuapp.com/
 
-### Preview:
+### Previews:
 
-![Picture of React Portfolio](./assets/images/ReactPortfolio.PNG)
+![React Portfolio One](./public/images/portfolio-screenshot-1.PNG)
+
+![React Portfolio Two](./public/images/portfolio-screenshot-2.PNG)
+
+![React Portfolio Three](./public/images/portfolio-screenshot-3.PNG)
 
 ### Author:
 
