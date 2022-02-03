@@ -1,38 +1,230 @@
-.App {
-  text-align: center;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	background-image: linear-gradient(to right top, #375d97, #2c87a9, #66acad, #aaccba, #e7ecda);
+	font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* margin and padding = top/bottom, left/right */
+/* margin and padding = top, left/right, bottom */
+/* margin and padding = top, right, bottom, left */
+
+
+
+nav {
+	display: flex;
+	align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul {
+	display: flex;
+	margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+nav li {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* navigation and Introduction */
+.header-top {
+	display: flex;
+	height: 25%;
+	font-size: larger;
+	border-bottom: medium solid gray;
+	justify-content: space-between;
+}
+
+.header-name {
+	display: flex;
+	margin-left: 30px;
+	padding: 0 10px 0;
+	border: thick solid lightblue;
+	border-radius: 7px;
+}
+
+.header-bottom {
+	height: 75%;
+	background-color: rgb(133, 216, 201);
+	border-bottom: 10px solid gray;
+}
+
+.bottom-head {
+	padding: 0 50px 0;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	font-size: 200%;
+}
+
+.header-two {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.header-three {
+	display: flex;
+	justify-content: center;
+}
+
+.header-four {
+	display: flex;
+	justify-content: flex-end;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 0 auto;
+}
+
+/* contains titles and content and puts them into the same row */
+.new-section {
+	display: flex;
+	margin: 20px 0 0;
+	width: 100%;
+}
+
+/* titles for main content displayed left of content*/
+.title {
+	border-right: solid #364f85;
+	text-align: right;
+	font-size: larger;
+	font-weight: bold;
+	padding-right: 10px;
+	margin-right: 10px;
+	flex-direction: column;
+	width: 10%;
+}
+
+.about-info {
+	font-size: medium;
+	font-weight: bold;
+	border-top: thin solid #364f85;
+	border-bottom: thin solid #364f85;
+	padding: 5px 10px 5px;
+	line-height: 1.5;
+	width:90%;
+}
+
+/*content to right of titles*/
+.content {
+		padding: 0;
+		width: 90%;
+}
+
+img {
+	width: 100%;
+}
+
+.project-link:hover {
+	opacity: 0.8;
+}
+
+.secondary-projects {
+	width: 49.7%;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.project-link{
+	width: 100%;
+}
+
+.right-column {
+	margin-left: 10px;
+		width: 100%;
+}
+
+.footer-large {
+	display: flex;
+	background-color: gray;
+	height: 70px;
+	border: medium solid darkgray;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5% 0;
+	width: 90%;
+	font-size: smaller;
+}
+.footer-link {
+	color: blue;
+	text-decoration: underline;
+}
+
+.footer-small {
+	display: none;
+}
+
+/*Tablet and smaller screens are displayed with 1 column of content*/
+@media screen and (max-width: 768px) {
+	main {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.header-name {
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.new-section {
+		margin: 10px 0 0;
+		padding: 0 5px 0;
+		width: 100%;
+	}
+
+	.title {
+		text-align: center;
+		font-size: larger;
+		font-weight: bold;
+		padding-right: 0;
+		margin-bottom: 5px;
+		width: 100%;
+		border: none;
+	}
+
+	.content {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	.section-row {
+		display: inline-block;
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	.right-column {
+		margin-left: 0;
+	}
+
+	.footer-large {
+		display: none;
+	}
+
+	.footer-small {
+		display: flex;
+		background-color: gray;
+		border-top: thick solid #364f85;
+		height: 30px;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 5% 0 5%;
+		font-weight: 700;
+	}
 }
