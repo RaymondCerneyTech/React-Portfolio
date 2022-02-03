@@ -11,11 +11,11 @@ My portfolio, but using React!
 
 ## Website:
 
-https://raymondcerneytech.github.io/React-Portfolio/
+https://react-portfolio-rc.herokuapp.com/
 
 ### Preview:
 
-![Picture of React Portfolio](./assets/images/ .PNG)
+![Picture of React Portfolio](./assets/images/ReactPortfolio.PNG)
 
 ### Author:
 
