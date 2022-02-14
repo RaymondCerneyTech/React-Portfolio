@@ -30,7 +30,7 @@ function Body() {
 				</div>
 
 				<div className="content">
-					<a title="Munchies And Movies" className="project-link" href="https://ahmed-sajjad111.github.io/Munchies-and-Movies/">
+					<a title="Munchies And Movies" className="project-link" href="https://raymondcerneytech.github.io/Munchies-and-Movies/">
 						<img src={munchiesAndMovies} alt="Movies and Munchies"></img>
 					</a>
 
